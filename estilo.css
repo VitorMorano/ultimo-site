@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #00c3ff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Arial Black', sans-serif;
+  background: linear-gradient(45deg, #ff007f, #ff00ff, #ffcc00, #00eaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 
+    -3px 3px 0px #FA2093, /* Laranja para a sombra inferior */
+    -6px 6px 0px #591F63, /* Preto para efeito 3D */
+    3px -3px 5px rgb(255, 115, 0); /* Neon rosa */
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
+
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Arial Black', sans-serif;
+}
+
+li a:hover {
+  background-color: #ff0000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+#logo{
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+}
+
+.caixa-texto {
+  flex-grow: 1; /* Faz com que a caixa de texto ocupe o espaço restante */
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border: 1px solid #ccc; /* Borda para a caixa de texto */
+  background-color: #f9f9f9; /* Cor de fundo da caixa de texto */
+  border-radius: 10px; /* Arredonda as bordas da caixa de texto */
+  margin-top: 5%;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;  /* Alinha horizontalmente */
+  align-items: center;      /* Alinha verticalmente */
+  height: 100vh;            /* A altura da tela */
+  width: 100%;              /* A largura total */
+}
+
+.titulo{
+  font-family: 'Arial Black', sans-serif;
+  text-align: center;
+
+}
+
+.video-container {
+    margin-bottom: 40px; /* Dá espaço entre o vídeo e a nova caixa */
+}
+
+.video-container {
+  margin-bottom: 40px; /* Espaço entre o vídeo e a nova caixa */
+}
+
+.caixa-texto-secundaria {
+  background-color: inherit; /* Mantém o fundo igual ao da primeira caixa */
+  color: inherit; /* Mantém a cor do texto igual à primeira caixa */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 20px;
+  width: 80%;
+  margin: 40px auto; /* Espaço no topo e no fundo */
+  text-align: center; /* Centraliza o texto */
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+#Richard{
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+.container {
+  display: flex; /* Coloca a imagem e o texto lado a lado */
+  align-items: flex-start; /* Alinha o texto no topo da imagem */
+  gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+#caixa-texto-1 {
+  font-size: 18px; /* Ajusta o tamanho da fonte da caixa de texto 1 */
+  width: auto; /* Ajusta a largura conforme o texto */
+  max-width: 600px; /* Limita a largura máxima */
+  background-color: #f0f0f0; /* Cor de fundo */
+  padding: 10px; /* Espaço interno */
+}
+
+#caixa-texto-2 {
+  font-size: 20px; /* Ajusta o tamanho da fonte da caixa de texto 2 */
+  width: auto; /* Ajusta a largura conforme o texto */
+  max-width: 700px; /* Limita a largura máxima */
+  background-color: #e0e0e0; /* Cor de fundo diferente */
+  padding: 15px; /* Espaço interno */
+}
+
+#video-richard{
+  margin-top: 35px ;
+
+}
+
+#rasmus{
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+
+#caixa-texto-2 {
+  font-size: 18px; /* Ajusta o tamanho da fonte da caixa de texto */
+  width: auto; /* Ajusta a largura conforme o texto */
+  max-width: 600px; /* Limita a largura máxima */
+  background-color: #f0f0f0; /* Cor de fundo */
+  padding: 10px; /* Espaço interno */
+}
+
+#video-rasmus{
+  margin-left: 10px;
+
+}
+
+#tony{
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+
+#video-tony{
+  margin-left: -20px;
+
+}
+
+#video-aubrey{
+  margin-left: -20px;
+
+}
+
+#video-don-juan{
+  margin-left: 33px;
+
+}
+
+#video-graham{
+  margin-left: 33px;
+
+}
+
+#video-dennis{
+  margin-left: -18px;
+
+}
+
+#video-jones{
+margin-left: -18px;
+
+}
+
+#video-george{
+  margin-left: 38px;
+
+}
+
+#video-ted{
+  margin-left: -18px;
+
+}
+
+#video-rufus{
+  margin-left: -10px;
+
+}
+
+#video-carl{
+  margin-left: -17px;
+
+}
+
+#video-rami{
+  margin-left: -17px;
+
+}
+
+#video-willem{
+  margin-left: 26px;
+
+}
+
+#video-jake{
+  margin-left: -15px;
+
+}
+
+#video-peter{
+  margin-left: -17px;
+
+}
+
+#video-zack{
+  margin-left: -16px;
+
+}
+
+#video-richter{
+  margin-left: 26px;
+
+}
+
+#video-oscar{
+  margin-left: 5px;
+
+}
+
+#video-rick{
+  margin-left: 10px;
+
+}
+
+#video-charlie{
+  margin-left: 60px;
+
+}
+
+#video-brandon{
+  margin-left: -9px;
+
+}
+
+#video-phill{
+  margin-left: -8px;
+
+}
+
+#video-louie{
+  margin-left: -10px;
+
+}
+
+#video-nigel{
+  margin-left: -17px;
+
+}
+
+#video-russel{
+  margin-left: 67px;
+
+}
+
+#logo-segundo{
+  margin-left: 20px;
+  margin-top: 100px;
+  width: 40%;
+  height: 40%;
+}
+
+.caixa-texto-terciaria{
+  background-color: inherit; /* Mantém o fundo igual ao da primeira caixa */
+  color: inherit; /* Mantém a cor do texto igual à primeira caixa */
+  border-radius: 10px; /* Bordas arredondadas */
+  padding: 20px;
+  width: 80%;
+  margin: 40px auto; /* Espaço no topo e no fundo */
+  text-align: center; /* Centraliza o texto */
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+
+}
+
+#video-corey{
+  margin-left: 55px;
+
+}
+
+#video-tony-hm2{
+  margin-left: 32px;
+
+}
+
+#video-ash-alex{
+  margin-left: 25px;
+
+}
+
+#video-mark{
+  margin-left: 25px;
+
+}
+
+#video-jake-hm2{
+  margin-left: 25px;
+
+}
+
+#video-irvin{
+  margin-left: 25px;
+
+}
+
+#video-dallas{
+  margin: 25px;
+
+}
+
+#video-escritor{
+  margin-left: 25px;
+
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Ajustes globais */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5; /* Mantém espaçamento confortável */
+}
+
+/* Menu de navegação */
+ul {
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #00c3ff;
+  display: flex;
+  align-items: center;
+  padding: 8px 15px; /* Espaçamento interno ajustado */
+}
+
+.nav-title {
+  font-size: 30px; /* Tamanho ajustado para título */
+  margin-right: 15px; /* Aproxima título dos itens do menu */
+}
+
+li a {
+  padding: 12px 14px; /* Espaçamento interno ajustado */
+}
+
+/* Logo */
+#logo-segundo {
+  margin-left: 10px; /* Espaçamento lateral */
+  margin-top: 10px; /* Aproxima a logo da navbar */
+}
+
+/* Contêiner principal (imagem e texto) */
+.container {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+  gap: 15px; /* Espaçamento entre a imagem e o texto */
+  margin-top: 80px; /* Ajustado para garantir distância ideal da navbar */
+}
+
+/* Caixa de texto */
+.caixa-texto {
+  flex-grow: 1; /* Faz a caixa de texto ocupar o espaço necessário */
+  padding: 8px; /* Espaço interno suave */
+  margin-top: 0; /* Mantém a caixa próxima da imagem */
+}
+
+/* Vídeo */
+.video-container {
+  margin: 20px auto; /* Espaço ajustado acima e abaixo do vídeo */
+  height: auto; /* Altura flexível */
+}
+
+/* Caixa de texto terciária */
+.caixa-texto-terciaria {
+  padding: 15px; /* Espaçamento interno ajustado */
+  margin: 30px auto; /* Espaçamento externo uniforme */
+}
+
+#container-primeiro{
+  margin-top: -1%;
+
+}
+
+  #cookie-consent-banner {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.3);
+    z-index: 9999;
+    font-size: 0.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #cookie-consent-banner p {
+    flex: 1 1 60%;
+    margin: 0;
+    padding-right: 10px;
+  }
+
+  #cookie-consent-banner button {
+    flex: 1 1 30%;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 100px;
+    white-space: nowrap;
+  }
+  #cookie-consent-banner button:hover,
+  #cookie-consent-banner button:focus {
+    background-color: royalblue;
+    outline: none;
+  }
